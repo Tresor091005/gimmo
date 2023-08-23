@@ -8,6 +8,7 @@
 
 :root {
   --color-primary: #ffb000;
+  --color-secondary: #ffc74c;
 }
 
 /*--------------------------------------------------------------
@@ -464,7 +465,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev:hover,
 .nav-arrow-b .owl-arrow .owl-nav .owl-next:hover {
-  background-color: #26a356;
+  background-color: var(--color-secondary);
 }
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-next {
@@ -504,7 +505,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #4bd680;
+  background: var(--color-secondary);
   color: #fff;
 }
 
@@ -590,7 +591,7 @@ a:hover {
 }
 
 .btn.btn-b-n:hover {
-  background-color: #26a356;
+  background-color: var(--color-secondary);
   color: #ffffff;
 }
 
@@ -2041,7 +2042,7 @@ a:hover {
 --------------------------------------------------------------*/
 .form-as #sendmessage {
   color: var(--color-primary);
-  border: 1px solid #26a356;
+  border: 1px solid var(--color-secondary);
   display: none;
   text-align: center;
   padding: 15px;
