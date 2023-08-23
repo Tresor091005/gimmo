@@ -267,6 +267,72 @@
 
   <main id="main">
 
+    <!-- ======= Search Section ======= -->
+    <section class="section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-between">
+              <div class="title-box">
+                <h2 class="title-a">Rechercher une Propiété</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="/recherche/" method="get">
+            <div class="row">
+              <div class="col-md-2 pdbm">
+                <select class="form-select form-select-lg rad">
+                    <option value="1" selected> Louer </option>
+                    <option value="2"> Acheter </option>
+                </select>
+              </div>
+              <div class="col-md-10 rad bbord">
+                <div class="row">
+                  <div class="col-md-3 pdbm">
+                    <select class="form-select form-select-lg rad bnon" name="tp" id="type2" style="">
+                      <option value="" selected> Type </option>
+                      
+                      <option value="1">Maison</option>
+                      
+                      <option value="2">Immeuble</option>
+                      
+                      <option value="3">Appartement</option>
+                      
+                      <option value="4">Bureau</option>
+                      
+                      <option value="5">Magasin</option>
+                      
+                      <option value="6">Villa</option>
+                      
+                      <option value="7">Terrain</option>
+                      
+                      <option value="8">Parcelle</option> 
+                    </select>
+                  </div>
+                  <div class="col-md-3 pdbm">
+                      <input class="form-control form-control-lg rad bnon" name="l" placeholder="Entrez une localisation">
+                  </div>
+                  <div class="col-md-4 pdbm">
+                    <div class="row">
+                      <div class="col-md-6 pdbm">
+                          <input class="form-control form-control-lg rad bnon" name="pm" type="number" placeholder="Prix min">
+                      </div>
+                      <div class="col-md-6">
+                          <input class="form-control form-control-lg rad bnon" name="pmx" type="number" placeholder="Prix max">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 pdrn pdbm">
+                      <input class="form-control form-control-lg rad rbtn" type="submit" value="Rechercher">
+                  </div>
+                </div>
+              </div>
+            </div>              
+        </form>
+      </div>
+    </section><!-- End Search Section -->
+
     <!-- ======= Services Section ======= -->
     <section class="section-services section-t8">
       <div class="container">

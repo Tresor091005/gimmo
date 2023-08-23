@@ -9,6 +9,7 @@
 :root {
   --color-primary: #ffb000;
 }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -281,7 +282,7 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-  .section-t8 {
+  sert8 {
     padding-top: 4rem;
   }
 }
@@ -1152,6 +1153,49 @@ a:hover {
   background-color: transparent;
   padding-right: 0;
   padding-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Property Search Bar
+--------------------------------------------------------------*/
+.rbtn {
+  background-color: #ffb000;
+  border-color: #ffb000;
+}
+
+@media screen and (max-width: 576px) {
+  .rad {
+      border-radius: 1.5rem;
+  }
+  .bnon {
+      border: 1px solid #ced4da;
+  }
+  .bbord {
+      border: none;
+      background-color: none;
+  }
+  .pdbm {
+      padding-bottom: 15px;
+  }
+  .pdrn {
+      padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .rad {
+      border-radius: 1.5rem;
+  }
+  .bnon {
+      border: none;
+  }
+  .bbord {
+      border: 1px solid #ced4da;
+      background-color: white;
+  }
+  .pdrn {
+      padding-right: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
