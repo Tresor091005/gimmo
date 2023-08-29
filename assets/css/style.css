@@ -640,13 +640,27 @@ a:hover {
   margin-left: 0;
 }
 
+.navbar-default.navbar-trans .nav-link,
+.navbar-default.navbar-reduce .nav-link {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media (min-width: 768px) {
 
   .navbar-default.navbar-trans .nav-item,
   .navbar-default.navbar-reduce .nav-item {
     margin-left: 15px;
   }
+}
 
+@media (max-width: 1024px) {
   .navbar-default.navbar-trans .nav-link,
   .navbar-default.navbar-reduce .nav-link {
     font-size: .76rem;
@@ -658,18 +672,6 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
   }
-}
-
-.navbar-default.navbar-trans .nav-link,
-.navbar-default.navbar-reduce .nav-link {
-  font-size: 1.1rem;
-  color: #000000;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  transition: all 0.1s ease-in-out;
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .navbar-default.navbar-trans .nav-link:before,
