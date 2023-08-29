@@ -587,7 +587,7 @@ a:hover {
 .btn.btn-b-n {
   background-color: var(--color-primary);
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 8px;
 }
 
 .btn.btn-b-n:hover {
@@ -603,9 +603,6 @@ a:hover {
   padding: 10px;
 }
 
-.navbar-toggle-box i {
-  line-height: 0;
-}
 
 /*--------------------------------------------------------------
 # Navbar
