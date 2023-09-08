@@ -7,8 +7,8 @@
 */
 
 :root {
-  --color-primary: #ffb000;
-  --color-secondary: #ffc74c;
+  --color-primary: #009cea;
+  --color-secondary: #009ceaaf;
 }
 
 /*--------------------------------------------------------------
@@ -1179,8 +1179,8 @@ a:hover {
 # Property Search Bar
 --------------------------------------------------------------*/
 .rbtn {
-  background-color: #ffb000;
-  border-color: #ffb000;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 @media screen and (max-width: 576px) {
